@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { AssetsPipe } from '../../../../../../Icoons.Admin/src/app/core/pipes/assets.pipe';
+import { AssetsPipe } from 'src/app/core/pipes/assets.pipe';
 @NgModule({
   imports: [],
   declarations: [AssetsPipe],

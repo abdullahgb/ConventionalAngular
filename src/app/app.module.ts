@@ -6,11 +6,17 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { HomeLayoutComponent } from './layouts/home/home-layout.component';
 import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
-import { AuthModule } from './routes/auth/auth.module';
-import { HomeModule } from './routes/home/home.module';
+import { NotFoundComponent } from './routes/other/not-found/not-found.component';
+import { ForbiddenComponent } from './routes/other/forbidden/forbidden.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeLayoutComponent, AuthLayoutComponent],
+  declarations: [
+    AppComponent,
+    HomeLayoutComponent,
+    AuthLayoutComponent,
+    NotFoundComponent,
+    ForbiddenComponent
+  ],
   imports: [BrowserModule, RouterModule.forRoot(AppRoutes)],
   providers: [],
   bootstrap: [AppComponent]
