@@ -8,6 +8,7 @@ import { HomeLayoutComponent } from './layouts/home/home-layout.component';
 import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 import { NotFoundComponent } from './routes/other/not-found/not-found.component';
 import { ForbiddenComponent } from './routes/other/forbidden/forbidden.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { ForbiddenComponent } from './routes/other/forbidden/forbidden.component
     NotFoundComponent,
     ForbiddenComponent
   ],
-  imports: [BrowserModule, RouterModule.forRoot(AppRoutes)],
+  imports: [BrowserModule, RouterModule.forRoot(AppRoutes), FlexLayoutModule],
   providers: [],
   bootstrap: [AppComponent]
 })
