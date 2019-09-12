@@ -18,7 +18,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     NotFoundComponent,
     ForbiddenComponent
   ],
-  imports: [BrowserModule, RouterModule.forRoot(AppRoutes), FlexLayoutModule],
+  imports: [BrowserModule, RouterModule.forRoot(AppRoutes)],
   providers: [],
   bootstrap: [AppComponent]
 })

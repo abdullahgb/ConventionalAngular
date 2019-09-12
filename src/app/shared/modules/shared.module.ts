@@ -31,72 +31,74 @@ import { ConfirmActionDialogComponent } from '../components/confirm-action-dialo
 @NgModule({
   imports: [
     CommonModule,
-    PipeModule,
+
+    // Modules
     FlexLayoutModule,
-    MatButtonModule,
-    MatDialogModule,
-    MatTooltipModule,
-    FlexModule,
-    MatInputModule,
-    MatSnackBarModule,
-    MatGridListModule,
-    MatFormFieldModule,
-    MatOptionModule,
-    MatSelectModule,
-    MatCardModule,
-    MatDividerModule,
-    ScrollingModule,
-    MatChipsModule,
-    MatIconModule,
-    MatExpansionModule,
-    MatListModule,
-    MatCheckboxModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatMenuModule,
-    MatRadioModule
+    PipeModule
+
+    // Material
+    // MatButtonModule,
+    // MatDialogModule,
+    // MatTooltipModule,
+    // MatInputModule,
+    // MatSnackBarModule,
+    // MatGridListModule,
+    // MatFormFieldModule,
+    // MatOptionModule,
+    // MatSelectModule,
+    // MatCardModule,
+    // MatDividerModule,
+    // MatChipsModule,
+    // MatIconModule,
+    // MatExpansionModule,
+    // MatListModule,
+    // MatCheckboxModule,
+    // FormsModule,
+    // ReactiveFormsModule,
+    // MatMenuModule,
+    // MatRadioModule
   ],
   declarations: [StopPropagateDirective, ConfirmActionDialogComponent],
   providers: [],
   entryComponents: [ConfirmActionDialogComponent],
   exports: [
     CommonModule,
-    PipeModule,
 
     // components
     ConfirmActionDialogComponent,
 
     // Modules
     FlexLayoutModule,
-    MatButtonModule,
-    MatDialogModule,
-    MatTooltipModule,
-    FlexModule,
-    MatInputModule,
-    MatSnackBarModule,
-    MatGridListModule,
-    MatFormFieldModule,
-    MatOptionModule,
-    MatSelectModule,
-    MatCardModule,
-    MatDividerModule,
-    ScrollingModule,
-    MatChipsModule,
-    MatIconModule,
-    MatExpansionModule,
-    MatListModule,
-    MatCheckboxModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatInputModule,
-    MatMenuModule,
-    MatRadioModule,
+    PipeModule,
 
     // pipes
     AssetsPipe,
 
     // directives
     StopPropagateDirective
+
+    // Material
+    // MatButtonModule,
+    // MatDialogModule,
+    // MatTooltipModule,
+    // MatInputModule,
+    // MatSnackBarModule,
+    // MatGridListModule,
+    // MatFormFieldModule,
+    // MatOptionModule,
+    // MatSelectModule,
+    // MatCardModule,
+    // MatDividerModule,
+    // MatChipsModule,
+    // MatIconModule,
+    // MatExpansionModule,
+    // MatListModule,
+    // MatCheckboxModule,
+    // FormsModule,
+    // ReactiveFormsModule,
+    // MatInputModule,
+    // MatMenuModule,
+    // MatRadioModule
   ]
 })
 export class SharedModules {}
